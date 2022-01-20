@@ -2,7 +2,6 @@ package com.apple.designpattern;
 
 public class BuilderPattern {
     public static void main(String[] args) {
-        Computer.Builder builder = new Computer.Builder("", "").setDisplay("M").setKeyboard("y");
         StringBuilder jojo = new StringBuilder().append("m");
         Girl myj = new Girl.Builder("myj", 18)
                 .setCity("Jiuquan")

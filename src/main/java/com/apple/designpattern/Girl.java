@@ -24,12 +24,12 @@ public class Girl {
             this.age = age;
         }
 
-        public Girl.Builder setCity(String city) {
+        public Builder setCity(String city) {
             this.city = city;
             return this;
         }
 
-        public Girl.Builder setSchool(String school) {
+        public Builder setSchool(String school) {
             this.school = school;
             return this;
         }
